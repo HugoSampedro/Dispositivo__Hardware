@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 48px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 48px;
+}
+
+
+
+nav#menu li {
+    display: inline flex;
+    margin: 15px;
+    font-size: medium;
+}
+nav#menu a {
+    color: white;
+}
+
+/* Relación con la IPO */
+#relacionIPO p {
+    font-size: 21px;
+}
+
+/* Historia en el main */
+
+#historia {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+#historia h2{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+
+#historia p {
+    font-size: 21px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#imagenesHistoria {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#imagenesHistoria img {
+    max-width: 100%;
+    width: 165px;
+    max-height: 100%;
+    height: 165px;
+    margin: 0 10px;
+}
+
+/* Gafas actuales */
+
+#gafas h3{
+    font-size: 29px;
+}
+
+#gafas p{
+    font-size: 19px;
+}
+
+#gafasActuales img {
+    height: auto;
+    width: 400px;
+}
+
+#gafasActuales p {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+
+#gafasWiMi {
+    display: flex;
+    justify-content: center;
+}
+
+/* Beneficios en el main */
+
+#beneficios h2{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+
+#beneficios h3 {
+    font-size: x-large;
+}
+
+#beneficios p {
+    font-size: large;
+}
+
+/* Materiales de referencia en el main */
+
+#materialesDeReferencia h2 {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+#materialesDeReferencia h3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#materialesDeReferencia p{
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+footer a {
+    color: white;
+}
+
+
+
+
+
